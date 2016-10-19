@@ -18,13 +18,7 @@ public class Box {
         return "height = " + height + "length = " + length + "width = " + width;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        Box other = (Box)o;
-        return this.width == other.width &&
-                this.length == other.length &&
-                this.height == other.height;
-    }
+  
 
     public int getLength() {
         return length;
